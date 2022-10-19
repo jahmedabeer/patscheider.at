@@ -2227,7 +2227,6 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98) opacity: 0.5;
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
@@ -2259,7 +2258,6 @@ input, select, textarea {
 	}
 
 		#banner1z header {
-			background-color: rgba(34, 30, 31, 0.98) opacity: 0.5;
 			display: inline-block;
 			padding: 2.5em 0em;
 			border-radius: 5px;
@@ -3000,6 +2998,13 @@ input, select, textarea {
 				padding: 40px 0 20px 0;
 			}
 
+		
+		/* en-banner image modification */
+		.eng-home #banner img{
+			width: 174px;
+			height: auto;
+		}
+
 	}
 
 /* full selbst eingefÃ¼gt fÃ¼r bilder die sich dynamisch verkleinern sollen */
@@ -3268,11 +3273,6 @@ Hero section modification v-1.0 => folder - eng file index.htm
     background: -webkit-gradient(linear, left top, right top, from(#B88000), to(rgb(184 128 0 / 35%)));
 	background: -o-linear-gradient(left, #B88000 0%, rgb(184 128 0 / 35%) 100%);
 	background: linear-gradient(90deg, #B88000 0%, rgb(184 128 0 / 35%) 100%);
-}
-
-
-.text-left{
-	text-align: left;
 }
 
 .align-center{
