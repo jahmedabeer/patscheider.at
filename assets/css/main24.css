@@ -89,8 +89,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #03256C; /* Farbe fÃ¼r Hintergrund, kommt nur beim SandwitchmenÃ¼ zum Tragen! */
-		background-image: url("images/bg02.png");
+		/*background: #03256C;  Farbe fÃ¼r Hintergrund, kommt nur beim SandwitchmenÃ¼ zum Tragen! */
+		/* background-image: url("images/bg02.png"); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3285,12 +3285,12 @@ Hero section modification v-1.0 => folder - eng file index.htm
 .en #footer {
 	position: unset;
 	padding-top: 4rem;
-    background: -webkit-gradient(linear, left top, right top, from(#B88000), to(rgb(184 128 0 / 35%)));
-	background: -o-linear-gradient(left, #B88000 0%, rgb(184 128 0 / 35%) 100%);
-	background: linear-gradient(90deg, #B88000 0%, rgb(184 128 0 / 35%) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#B88000), to(rgb(184 128 0 / 35%)));
+	background-image: -o-linear-gradient(left, #B88000 0%, rgb(184 128 0 / 35%) 100%);
+	background-image: linear-gradient(90deg, #B88000 0%, rgb(184 128 0 / 35%) 100%);
 }
 
-#footer a:hover{
-	color: goldenrod;
+.en #footer a:hover{
+	color: #42526a;
 }
 
