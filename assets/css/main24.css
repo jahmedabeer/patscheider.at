@@ -2999,10 +2999,17 @@ input, select, textarea {
 			}
 
 		
-		/* en-banner image modification */
+		/* =================
+			en-banner image modification 
+			================================
+		*/
 		.eng-home #banner img{
 			width: 174px;
 			height: auto;
+		}
+
+		.en #banner1z h2 {
+			font-size: 2em;
 		}
 
 	}
@@ -3271,6 +3278,10 @@ body.en{
 	background: none;
 }
 
+.en a{
+	color: #B88000;
+}
+
 /* mobile nav background */
 .en #navPanel {
     background: #F6EFDF;
@@ -3338,12 +3349,12 @@ body.en{
 }
 
 /*  submenu banner image modification */
-#banner1z{
-	background: #996515 url(../../images/submenupage-banner.jpg);
+.en #banner1z{
+	background: #B88000 url(../../images/submenupage-banner.jpg);
 }
 
 
-/* footer gradient bg */
+/* footer gradient bacground */
 
 .en #footer {
 	position: unset;
