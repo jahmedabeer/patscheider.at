@@ -89,8 +89,8 @@ input, select, textarea {
 	}
 
 	body {
-		/*background: #03256C;  Farbe fÃ¼r Hintergrund, kommt nur beim SandwitchmenÃ¼ zum Tragen! */
-		/* background-image: url("images/bg02.png"); */
+		background: #03256C;
+		background-image: url("images/bg02.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2168,8 +2168,8 @@ input, select, textarea {
 
 	.dropotron {
 		border-radius: 5px;
-		background-color: #252122; 
-		background-color: rgba(3, 37, 108, 0.98); /* Farbe Hinterrund nav UnterMenÃ¼  Originalwert: rgba(34, 30, 31, 0.98); */
+		/* background-color: #252122;  */
+		background: rgba(3, 37, 108, 0.98); /* Farbe Hinterrund nav UnterMenÃ¼  Originalwert: rgba(34, 30, 31, 0.98); */
 		padding: 1.25em 1.5em 1.25em 1.5em;
 		font-style: italic;
 		min-width: 13em;
@@ -3267,6 +3267,19 @@ Hero section modification v-1.0 => folder - eng file index.htm
 =============
 */
 
+body.en{
+	background: none;
+}
+
+/* mobile nav background */
+.en #navPanel {
+    background: #F6EFDF;
+}
+
+.en #navPanel .depth-0{
+	color: #222;
+}
+
 /* banner gradient image */
 .eng-home #banner
 {
@@ -3277,6 +3290,56 @@ Hero section modification v-1.0 => folder - eng file index.htm
 
 .align-center{
 	align-items: center;
+}
+
+
+/* menu color palate */
+
+.en #nav > ul > li.current > a{
+	background: #F6EFDF;
+	color: #5D5D5D !important;
+}
+
+.en #nav > ul > li:hover > a,
+.en #nav > ul > li.active > a{
+	background: rgba(246, 239, 223, 0.4);
+}
+
+/* ====  dropdown ===== */
+.en .dropotron-en {
+    background-color: #F6EFDF;
+    box-shadow: 0px 8px 15px 0px rgba(246, 239, 223, 0.2);
+}
+
+.en .dropotron-en a, 
+.en .dropotron-en span {
+    color: #666 !important;
+}
+
+.en .dropotron-en a:hover,
+.en .dropotron-en span:hover{
+	color:#996515 !important;
+	font-weight: 500;
+}
+
+.en .dropotron-en:before {
+    border-bottom-color: #F6EFDF;
+}
+
+
+/* button - en */
+.en .button{
+	background: #B88000;
+	color: #fff !important;
+}
+
+.en .button:hover{
+	background: linear-gradient(90deg, #B88000 0%, rgb(184 128 0 / 65%) 100%);
+}
+
+/*  submenu banner image modification */
+#banner1z{
+	background: #996515 url(../../images/submenupage-banner.jpg);
 }
 
 
@@ -3291,6 +3354,10 @@ Hero section modification v-1.0 => folder - eng file index.htm
 }
 
 .en #footer a:hover{
-	color: #42526a;
+	color: #996515;
+}
+
+.en #footer ul.divided li {
+    border-top-color: rgb(255 255 255 / 12%);
 }
 

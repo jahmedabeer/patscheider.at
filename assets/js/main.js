@@ -28,7 +28,8 @@
 		$('#nav > ul').dropotron({
 			mode: 'fade',
 			noOpenerFade: true,
-			alignment: 'center'
+			alignment: 'center',
+			menuClass: 'dropotron dropotron-en' // addition class for en
 		});
 
 	// Nav.
