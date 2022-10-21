@@ -3000,7 +3000,8 @@ input, select, textarea {
 
 		
 		/* =================
-			en-banner image modification 
+			# en modification
+			en-banner image modification for mobile
 			================================
 		*/
 		.eng-home #banner img{
@@ -3011,6 +3012,21 @@ input, select, textarea {
 		.en #banner1z h2 {
 			font-size: 2em;
 		}
+
+		/* mobile nav background */
+		.en #navPanel {
+			background: #F6EFDF;
+			box-shadow: none;
+		}
+
+		.en #navPanel .depth-0{
+			color: #222;
+		}
+
+		/* =================
+			# End en modification
+			================================
+		*/
 
 	}
 
@@ -3268,8 +3284,9 @@ body.lb-disable-scrolling {
 }
 
 
-/* 
+/*
 ============= 
+# en modification
 Hero section modification v-1.0 => folder - eng file index.htm  
 =============
 */
@@ -3282,21 +3299,19 @@ body.en{
 	color: #B88000;
 }
 
-/* mobile nav background */
-.en #navPanel {
-    background: #F6EFDF;
-}
-
-.en #navPanel .depth-0{
-	color: #222;
-}
-
 /* banner gradient image */
 .eng-home #banner
 {
     background: -webkit-gradient(linear, left top, right top, from(#B88000), to(rgb(184 128 0 / 35%)));
 	background: -o-linear-gradient(left, #B88000 0%, rgb(184 128 0 / 35%) 100%);
 	background: linear-gradient(90deg, #B88000 0%, rgb(184 128 0 / 35%) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.en #banner {
+	padding: 4em 0;
+	margin: 3.65em 0 0 0;
 }
 
 .align-center{
@@ -3330,7 +3345,6 @@ body.en{
 .en .dropotron-en a:hover,
 .en .dropotron-en span:hover{
 	color:#996515 !important;
-	font-weight: 500;
 }
 
 .en .dropotron-en:before {
@@ -3354,14 +3368,16 @@ body.en{
 }
 
 
-/* footer gradient bacground */
+/* footer gradient background */
 
 .en #footer {
 	position: unset;
-	padding-top: 4rem;
+	padding-top: 3rem;
     background-image: -webkit-gradient(linear, left top, right top, from(#B88000), to(rgb(184 128 0 / 35%)));
 	background-image: -o-linear-gradient(left, #B88000 0%, rgb(184 128 0 / 35%) 100%);
 	background-image: linear-gradient(90deg, #B88000 0%, rgb(184 128 0 / 35%) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .en #footer a:hover{
@@ -3372,3 +3388,8 @@ body.en{
     border-top-color: rgb(255 255 255 / 12%);
 }
 
+/* 
+============= 
+End en modification
+=============
+*/
