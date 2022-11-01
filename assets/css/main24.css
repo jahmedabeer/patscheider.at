@@ -2772,10 +2772,6 @@ input, select, textarea {
 					width: 5em;
 				}
 
-				#navPanel .depth-0 {
-					color: #fff;
-				}
-
 			body.navPanel-visible #page-wrapper {
 				-moz-transform: translateX(275px);
 				-webkit-transform: translateX(275px);
@@ -2795,6 +2791,16 @@ input, select, textarea {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
+			}
+
+			/* mobile nav background */
+			.en #navPanel {
+				background: #F6EFDF;
+				box-shadow: none;
+			}
+
+			.en #navPanel .depth-0{
+				color: #222;
 			}
 
 	}
@@ -3011,16 +3017,6 @@ input, select, textarea {
 
 		.en #banner1z h2 {
 			font-size: 2em;
-		}
-
-		/* mobile nav background */
-		.en #navPanel {
-			background: #F6EFDF;
-			box-shadow: none;
-		}
-
-		.en #navPanel .depth-0{
-			color: #222;
 		}
 
 		/* =================
